@@ -1,0 +1,148 @@
+,Category,Workplace,Location,Department,Type
+0,Business Analyst,Remote,United Kingdom,Operations,Full time
+1,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+2,Business Analyst,On-site,"Al-Dajeej, Al Farwaniyah Governorate, Kuwait",PWC Technologies,Full time
+3,Business Analyst,On-site,"London, England, United Kingdom","Consultants, Advisory",Full time
+4,Business Analyst,Remote,United Kingdom,Operations,Full time
+5,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+6,Business Analyst,On-site,"Al-Dajeej, Al Farwaniyah Governorate, Kuwait",PWC Technologies,Full time
+7,Business Analyst,On-site,"London, England, United Kingdom","Consultants, Advisory",Full time
+8,Business Analyst,Remote,"London, England, United Kingdom",Change & Innovation,
+9,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+10,Business Analyst,On-site,"Islamabad, Islamabad Capital Territory, Pakistan","Data & Strategy, Performance Analytics",Full time
+11,Business Analyst,Remote,United States,Computer/Software,Full time
+12,Business Analyst,Hybrid,"London, England, United Kingdom",Corporate Affairs,Full time
+13,Business Analyst,Hybrid,"London, England, United Kingdom",Technology,Full time
+14,Business Analyst,Hybrid,"Cary, North Carolina, United States",1 - Operations,Full time
+15,Business Analyst,On-site,"Overland Park, Kansas, United States",Consulting,Contract
+16,Business Analyst,Remote,"Brookfield, Wisconsin, United States",Security - Delivery,Full time
+17,Business Analyst,On-site,"Islamabad, Islamabad Capital Territory, Pakistan","Data & Strategy, Digital Analytics",Full time
+18,Business Analyst,Remote,"London, England, United Kingdom",Change & Innovation,
+19,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+20,Business Analyst,On-site,"Islamabad, Islamabad Capital Territory, Pakistan","Data & Strategy, Performance Analytics",Full time
+21,Business Analyst,Remote,United States,Computer/Software,Full time
+22,Business Analyst,Hybrid,"London, England, United Kingdom",Corporate Affairs,Full time
+23,Business Analyst,Hybrid,"London, England, United Kingdom",Technology,Full time
+24,Business Analyst,Hybrid,"Cary, North Carolina, United States",1 - Operations,Full time
+25,Business Analyst,On-site,"Overland Park, Kansas, United States",Consulting,Contract
+26,Business Analyst,Remote,"Brookfield, Wisconsin, United States",Security - Delivery,Full time
+27,Business Analyst,On-site,"Islamabad, Islamabad Capital Territory, Pakistan","Data & Strategy, Digital Analytics",Full time
+28,Business Analyst,Remote,"Athens, Attica, Greece",DELIV1,Full time
+29,Business Analyst,On-site,"Astana, Aqmola oblısı, Kazakhstan",TECH,Full time
+30,Business Analyst,On-site,"North West, England, United Kingdom",Change+,
+31,Business Analyst,Hybrid,"Berlin, Berlin, Germany",Business & Organization,
+32,Business Analyst,Remote,"Washington, District of Columbia, United States",Account Team,Full time
+33,Business Analyst,On-site,"Boston, Massachusetts, United States",Delivery,Full time
+34,Business Analyst,On-site,"Orlando, Florida, United States",Information Technology,Full time
+35,Business Analyst,On-site,"London, England, United Kingdom",Change+,
+36,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+37,Business Analyst,On-site,"Washington, District of Columbia, United States",Labs,Full time
+38,Business Analyst,Remote,"Athens, Attica, Greece",DELIV1,Full time
+39,Business Analyst,On-site,"Astana, Aqmola oblısı, Kazakhstan",TECH,Full time
+40,Business Analyst,On-site,"North West, England, United Kingdom",Change+,
+41,Business Analyst,Hybrid,"Berlin, Berlin, Germany",Business & Organization,
+42,Business Analyst,Remote,"Washington, District of Columbia, United States",Account Team,Full time
+43,Business Analyst,On-site,"Boston, Massachusetts, United States",Delivery,Full time
+44,Business Analyst,On-site,"Orlando, Florida, United States",Information Technology,Full time
+45,Business Analyst,On-site,"London, England, United Kingdom",Change+,
+46,Business Analyst,Remote,"Makati, Metro Manila, Philippines",Aux HQ,Full time
+47,Business Analyst,On-site,"Washington, District of Columbia, United States",Labs,Full time
+48,Business Analyst,On-site,"Austin, Texas, United States",Data Management,Full time
+49,Business Analyst,On-site,"Brisbane, Queensland, Australia","Australia Markets, Technical Services, Intelligence Workspace",Full time
+50,Business Analyst,Hybrid,"Salt Lake City, Utah, United States",Delivery,Full time
+51,Business Analyst,Hybrid,"Vancouver, British Columbia, Canada",Business Management,Full time
+52,Business Analyst,Remote,"Edinburgh, Scotland, United Kingdom","Business Services Professionals, Risk & Compliance",Full time
+53,Business Analyst,On-site,"Swords, County Dublin, Ireland",HR,Full time
+54,Business Analyst,On-site,"London, England, United Kingdom","Consultants, Advisory",Full time
+55,Business Analyst,On-site,"London, England, United Kingdom",Credit Risk,
+56,Business Analyst,Hybrid,"Athens, Attica, Greece",OPERATIONS,
+57,Business Analyst,On-site,"Austin, Texas, United States",Data Management,Full time
+58,Business Analyst,On-site,"Brisbane, Queensland, Australia","Australia Markets, Technical Services, Intelligence Workspace",Full time
+59,Business Analyst,Hybrid,"Salt Lake City, Utah, United States",Delivery,Full time
+60,Business Analyst,Hybrid,"Vancouver, British Columbia, Canada",Business Management,Full time
+61,Business Analyst,Remote,"Edinburgh, Scotland, United Kingdom","Business Services Professionals, Risk & Compliance",Full time
+62,Business Analyst,On-site,"Swords, County Dublin, Ireland",HR,Full time
+63,Business Analyst,On-site,"London, England, United Kingdom","Consultants, Advisory",Full time
+64,Business Analyst,On-site,"London, England, United Kingdom",Credit Risk,
+65,Business Analyst,Hybrid,"Athens, Attica, Greece",OPERATIONS,
+66,Business Analyst,On-site,"Dublin, County Dublin, Ireland",Ryanair Labs Dublin,Full time
+67,Business Analyst,Hybrid,"London, England, United Kingdom",Corporate Affairs,Full time
+68,Business Analyst,On-site,"Hursley, England, United Kingdom",Tech+,
+69,Business Analyst,On-site,"Sacramento, California, United States",ITPM,Full time
+70,Business Analyst,Hybrid,"Dublin, County Dublin, Ireland",Product Delivery,Full time
+71,Business Analyst,On-site,"Cambridge, England, United Kingdom",Change+,
+72,Business Analyst,Remote,"Cherry Hill, New Jersey, United States",,Contract
+73,Business Analyst,On-site,"Orlando, Florida, United States",Information Technology,Full time
+74,Business Analyst,Hybrid,"Athens, Greece",Information Technology,Full time
+75,Business Analyst,On-site,"Dublin, County Dublin, Ireland",Ryanair Labs Dublin,Full time
+76,Business Analyst,Hybrid,"London, England, United Kingdom",Corporate Affairs,Full time
+77,Business Analyst,On-site,"Hursley, England, United Kingdom",Tech+,
+78,Business Analyst,,"Sacramento, California, United States",ITPM,Full time
+79,Business Analyst,Hybrid,"Dublin, County Dublin, Ireland",Product Delivery,Full time
+80,Business Analyst,On-site,"Cambridge, England, United Kingdom",Change+,
+81,Business Analyst,Remote,"Cherry Hill, New Jersey, United States",,Contract
+82,Business Analyst,On-site,"Orlando, Florida, United States",Information Technology,Full time
+83,Business Analyst,Hybrid,"Athens, Greece",Information Technology,Full time
+84,Business Analyst,On-site,"Dublin, County Dublin, Ireland",Information Systems,Full time
+85,Business Analyst,On-site,"Overland Park, Kansas, United States",Consulting,Contract
+86,Business Analyst,Hybrid,"Cary, North Carolina, United States",1 - Operations,Full time
+87,Business Analyst,On-site,"Warrington, England, United Kingdom",Data+,Full time
+88,Business Analyst,Remote,France,Marketing,Full time
+89,Business Analyst,On-site,"Douala, Littoral, Cameroon",,Full time
+90,Business Analyst,Remote,"Cherry Hill, New Jersey, United States",,Contract
+91,Business Analyst,Remote,Jordan,,
+92,Business Analyst,On-site,"Lagos, Lagos, Nigeria",Information Technology,Full time
+93,Business Analyst,On-site,"Amman, Amman Governorate, Jordan","Sales, OLX Oman Jordan",Full time
+94,Business Analyst,On-site,"Cebu City, Central Visayas, Philippines",,Full time
+95,Business Analyst,Remote,"London, England, United Kingdom",Analytics,Full time
+96,Business Analyst,Hybrid,"London, England, United Kingdom",Finance,Full time
+97,Business Analyst,Remote,"Belle Isle, Florida, United States",,Full time
+98,Business Analyst,Remote,United States,Computer/Software,Full time
+99,Business Analyst,On-site,"Belgrade, Vojvodina, Serbia",IMPLEMENTATIONS & DELIVERY,Full time
+100,Business Analyst,Hybrid,"Auckland, Auckland, New Zealand",Insights,Full time
+101,Business Analyst,On-site,"Riyadh, Riyadh Province, Saudi Arabia",Commercial,Contract
+102,Business Analyst,On-site,"London, England, United Kingdom",Private Credit,Full time
+103,Business Analyst,On-site,"UK, United Kingdom, United Kingdom",Data+,
+104,Business Analyst,Hybrid,"Melbourne, Victoria, Australia",Platform Product,Full time
+105,Business Analyst,On-site,"Bengaluru, Karnataka, India",,Full time
+106,Business Analyst,On-site,"Leeds, England, United Kingdom",Research Analysts,Contract
+107,Business Analyst,On-site,"Sydney, New South Wales, Australia",IT,Contract
+108,Business Analyst,On-site,"Chalcis, Central Greece, Greece",Αθήνα,Other
+109,Business Analyst,Remote,"Arlington, Virginia, United States",Digital Services,Full time
+110,Business Analyst,,,,
+111,Business Analyst,On-site,"Jeddah, Makkah Province, Saudi Arabia",Data and Analytics,Full time
+112,Business Analyst,Hybrid,"Manchester, England, United Kingdom",Development and Technical,Full time
+113,Business Analyst,,"Kuwait City, Al Asimah Governate, Kuwait",Agility Logistics Parks,Full time
+114,Business Analyst,Hybrid,"London, England, United Kingdom",Finance,Full time
+115,Business Analyst,Remote,"Delhi, India",,
+116,Business Analyst,Hybrid,"Toronto, Ontario, Canada",Business Management,Full time
+117,Business Analyst,Remote,"Cairo, Cairo Governorate, Egypt",59,
+118,Business Analyst,On-site,"North West, England, United Kingdom",Change+,
+119,Business Analyst,On-site,"Lagos, Lagos, Nigeria",DCP - Operations,Full time
+120,Business Analyst,On-site,"Calgary, Alberta, Canada",,Full time
+121,Business Analyst,On-site,"New York, New York, United States",Corporate,Full time
+122,Business Analyst,Hybrid,"San Antonio, Texas, United States",,Full time
+123,Business Analyst,On-site,"London, England, United Kingdom",Private Credit,Full time
+124,Business Analyst,Remote,Philippines,,
+125,Business Analyst,On-site,"Bengaluru, Karnataka, India",,Full time
+126,Business Analyst,On-site,"Calgary, Alberta, Canada",Analysis,Full time
+127,Business Analyst,On-site,"London, England, United Kingdom",Research Analysts,Contract
+128,Business Analyst,On-site,"Fort Worth, Texas, United States",Analytics,Full time
+129,Business Analyst,On-site,"Lagos, Lagos, Nigeria",CX Operations,Full time
+130,Business Analyst,Remote,"Lagos, Lagos, Nigeria",Data Science,Full time
+131,Business Analyst,On-site,"Obajana, Kogi, Nigeria",Risk Management,Full time
+132,Business Analyst,Remote,"Boston, Massachusetts, United States",Science & Knowledge,
+133,Business Analyst,On-site,"Makati, Metro Manila, Philippines",Operations,Full time
+134,Business Analyst,Remote,Philippines,,
+135,Business Analyst,Hybrid,"London, England, United Kingdom",Customer Experience,Full time
+136,Business Analyst,On-site,"Anfa-Casablanca, Casablanca-Settat, Morocco",Research,Full time
+137,Business Analyst,Hybrid,"Athens, Attica, Greece",Finance,Full time
+138,Business Analyst,Hybrid,"London, England, United Kingdom",,Full time
+139,Business Analyst,Remote,"Sacramento, California, United States",Finance,Full time
+140,Business Analyst,Hybrid,"Montreal, Quebec, Canada",Structured Content,
+141,Business Analyst,Hybrid,"Milan, Metropolitan City of Milan, Italy",Strategy & BI,Full time
+142,Business Analyst,Hybrid,"Sofia, Sofia City Province, Bulgaria",,Full time
+143,Business Analyst,Remote,United States,,Contract
+144,Business Analyst,On-site,"Al-Dajeej, Al Farwaniyah Governorate, Kuwait",PWC Technologies,Full time
+145,Business Analyst,Hybrid,"Golden, Colorado, United States",Asset Management,Full time
+146,Business Analyst,On-site,"Dubai, Dubai, United Arab Emirates",Strategy,
