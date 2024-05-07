@@ -13,18 +13,20 @@ services:
       - hadoop
     volumes:
       - ./:/app
-  hadoop-master:
+  hadoop-worker1:
     build: .
-    container_name: hadoop-master
+    container_name: hadoop-worker1
     ports:
-      - 9870:9870
-      - 8088:8088
-      - 7077:7077
-      - 16010:16010
+      - 8040:8042
     networks:
       - hadoop
-    volumes:
-      - ./:/app
+  hadoop-worker2:
+    build: .
+    container_name: hadoop-worker2
+    ports:
+      - 8041:8042
+    networks:
+      - hadoop
   mongo:
     image: mongo
     restart: always

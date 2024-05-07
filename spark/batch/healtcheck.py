@@ -3,11 +3,14 @@ from pyspark.sql.functions import upper
 
 
 
+
 # Create a SparkSession
 spark = SparkSession.builder.appName("").getOrCreate()
+spark
+
 
 # Read the CSV file
-df = spark.read.csv("../../datasets/data.csv", header=True, inferSchema=True)
+df = spark.read.csv("input/data.csv", header=True, inferSchema=True)
 
 # Perform a transformation (convert all words to uppercase)
 df = df.select([upper(column).alias(column) for column in df.columns])
