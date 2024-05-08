@@ -1,7 +1,5 @@
 #! /bin/bash
 
-#!/bin/bash
-
 # /usr/sbin/sshd -D -e
 service ssh start
 
@@ -11,8 +9,9 @@ service ssh start
 wget https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
 mv slf4j-api-1.7.30.jar /usr/local/spark/jars/slf4j-api-1.7.30.jar
 
+sleep 40
 /root/start-hadoop.sh
-sleep 45
+sleep 40
 
 /root/start-kafka-zookeeper.sh
 sleep 10

@@ -4,6 +4,10 @@ services:
   hadoop-master:
     build: .
     container_name: hadoop-master
+    hostname: hadoop-master
+    depends_on:
+      - hadoop-worker1
+      - hadoop-worker2
     ports:
       - 9870:9870
       - 8088:8088
@@ -14,19 +18,33 @@ services:
     volumes:
       - ./:/app
   hadoop-worker1:
-    build: .
-    container_name: hadoop-worker1
+    image: ranimmbarek/hadoop-cluster
+    hostname: hadoop-worker1
     ports:
       - 8040:8042
     networks:
       - hadoop
+    tty: true
+    stdin_open: true
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: on-failure
   hadoop-worker2:
-    build: .
-    container_name: hadoop-worker2
+    hostname: hadoop-worker2
+    image: ranimmbarek/hadoop-cluster
     ports:
       - 8041:8042
     networks:
       - hadoop
+    tty: true
+    stdin_open: true
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: on-failure
   mongo:
     image: mongo
     restart: always
@@ -43,9 +61,8 @@ services:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
-      ME_CONFIG_BASICAUTH: false
+      ME_CONFIG_BASICAUTH: "false"
 
 networks:
   hadoop:
-
-
+    driver: bridge

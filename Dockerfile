@@ -1,4 +1,4 @@
-FROM liliasfaxi/hadoop-cluster:latest
+FROM ranimmbarek/hadoop-cluster
 
 COPY mapred-site.xml /usr/local/hadoop/etc/hadoop/mapred-site.xml
 
