@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import split, explode, col, desc, length, current_timestamp
+from pyspark.sql.functions import split, explode, col, desc, length, current_timestamp,count
 from pyspark import SparkContext
 
 # Create a SparkSession
@@ -38,10 +38,10 @@ for column in columns:
         words = words.union(extract_words_from_column(df, column))
 
 # Count the occurrences of each word
-word_counts = words.groupBy("word").count()
-
-# Add timestamp
-word_counts = word_counts.withColumn("createdat", current_timestamp())
+word_counts = (words.groupBy("word").agg(
+        count("*").alias("mentioned_times"),
+        current_timestamp().alias("createdat")
+))
 
 # Write the word counts to Cassandra table
 word_counts.write \
