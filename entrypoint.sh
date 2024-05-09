@@ -16,5 +16,8 @@ sleep 40
 /root/start-kafka-zookeeper.sh
 sleep 10
 
+
+
+
 echo "DONE"
 tail -f /dev/null

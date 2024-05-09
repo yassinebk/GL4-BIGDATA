@@ -1,16 +1,18 @@
 import json
+from confluent_kafka import Producer
 import requests
 import threading
 import time
 import socket
+from flask import Flask
 
 app = Flask(__name__)
 
 JSON_URL = "https://api.apify.com/v2/datasets/0W1msdVfrNKSJyEDQ/items?token=apify_api_xWO8WuBaVKxXGyyDXxknjceLVVwLgn1AYTDv"
 JSON_FILE = "data.json"
 BATCH_SIZE = 5
-NETCAT_HOST = "localhost"
-NETCAT_PORT = 12345
+
+producer = Producer({'bootstrap.servers': 'localhost:9092'})
 
 def fetch_and_store_json():
     response = requests.get(JSON_URL)
@@ -18,20 +20,16 @@ def fetch_and_store_json():
     with open(JSON_FILE, "w") as file:
         json.dump(data, file)
 
-def send_json_to_netcat():
-    with open(JSON_FILE, "r") as file:
+def send_data_to_kafka():
+    with open('data.json', 'r') as file:
         data = json.load(file)
 
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect((NETCAT_HOST, NETCAT_PORT))
-
-    for i in range(0, len(data), BATCH_SIZE):
-        batch = data[i:i+BATCH_SIZE]
-        batch_json = json.dumps(batch)
-        sock.sendall(batch_json.encode())
-        time.sleep(100)  # Delay between sending batches
-
-    sock.close()
+    batch_size = 5
+    for i in range(0, len(data), batch_size):
+        batch = data[i:i+batch_size]
+        producer.produce('job_data_topic', json.dumps(batch))
+        print('[+] Sending new data ....')
+        time.sleep(10)  # Delay between sending batches
 
 @app.route("/")
 def index():
@@ -40,5 +38,5 @@ def index():
 
 if __name__ == "__main__":
     fetch_and_store_json()
-    threading.Thread(target=send_json_to_netcat).start()
+    threading.Thread(target=send_data_to_kafka).start()
     app.run()

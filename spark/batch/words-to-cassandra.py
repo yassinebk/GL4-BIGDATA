@@ -1,10 +1,14 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import split, explode, col, desc, length
+from pyspark.sql.functions import split, explode, col, desc, length, current_timestamp
 from pyspark import SparkContext
 
 # Create a SparkSession
 spark = SparkSession.builder \
     .appName("MostRepeatedWords") \
+    .master("local[1]") \
+    .config("spark.jars.packages", "com.datastax.spark:spark-cassandra-connector_2.12:3.5.0") \
+    .config("spark.cassandra.connection.host", "cassandra") \
+    .config("spark.cassandra.connection.port", "9042") \
     .getOrCreate()
 
 # Create a SparkContext
@@ -36,14 +40,15 @@ for column in columns:
 # Count the occurrences of each word
 word_counts = words.groupBy("word").count()
 
-# Get the most repeated words in descending order
-most_repeated_words = word_counts.orderBy(desc("count"))
+# Add timestamp
+word_counts = word_counts.withColumn("createdat", current_timestamp())
 
-most_repeated_words.show()
-
-# Write output to HDFS
-output_path = "output/most_repeated_words"
-most_repeated_words.write.csv(output_path, header=True, mode='overwrite')
+# Write the word counts to Cassandra table
+word_counts.write \
+    .format("org.apache.spark.sql.cassandra") \
+    .options(table="words", keyspace="jobs_stream") \
+    .mode("append") \
+    .save()
 
 # Stop SparkSession and SparkContext
 spark.stop()

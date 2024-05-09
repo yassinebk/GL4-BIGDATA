@@ -43,7 +43,7 @@ In this section we outline the schema of each data source.
 - also [Skills](./datasets/skills.csv)
 - also [Industries](./datasets/industries.csv)
 
-https://www.kaggle.com/datasets/arshkon/linkedin-job-postings
+https://www.kaggle.com/datasets/arshkonelinkedin-job-postings
 
 `job_id,company_id,title,description,max_salary,med_salary,min_salary,pay_period,formatted_work_type,location,applies,original_listed_time,remote_allowed,views,job_posting_url,application_url,application_type,expiry,closed_time,formatted_experience_level,skills_desc,listed_time,posting_domain,sponsored,work_type,currency,compensation_type,scraped`
 

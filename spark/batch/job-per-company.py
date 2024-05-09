@@ -8,13 +8,11 @@ spark = SparkSession.builder \
 # Load the dataset
 df = spark.read.csv("input/nyc-jobs.csv", header=True)
 
-
-
 # Group by company_id and count the number of job offers
 job_offers_by_company = df.groupBy("company_id").count()
 
 # Write output to a directory
-job_offers_by_company.write.csv("output/job_offers_by_company", header=True)
+job_offers_by_company.write.csv("output/job_offers_by_company", header=True,mode="overwrite")
 
 # Stop SparkSession
 spark.stop()
